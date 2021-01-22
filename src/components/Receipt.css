@@ -1,0 +1,27 @@
+.Food-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 5px solid rgba(255, 162, 0, 0.988);
+  float: center;
+  margin: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+  flex-grow: 0;
+  display: inline-block;
+}
+
+.Food-name {
+  color: maroon;
+  font-weight: 900;
+  float: center;
+}
+
+.cost {
+  font-weight: bold;
+  color: rgb(230, 1, 1);
+}
+
+.cost-amount {
+  font-weight: 900;
+  color: rgb(230, 1, 1);
+}
